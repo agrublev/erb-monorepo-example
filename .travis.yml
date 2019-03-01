@@ -22,7 +22,8 @@ addons:
       - graphicsmagick
       - xz-utils
       - xorriso
-
+  artifacts: true
+  
 install:
   - export CXX="g++-4.8"
   - yarn
