@@ -22,7 +22,8 @@ addons:
       - graphicsmagick
       - xz-utils
       - xorriso
-  artifacts: true
+  artifacts: 
+    s3_region: "us-west-1"
   
 install:
   - export CXX="g++-4.8"
